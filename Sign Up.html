@@ -1,0 +1,38 @@
+<html>
+	<head><center><br>Sign Up Page<link rel="stylesheet" href="Sign Up.css"></center></head>
+	<body>
+	<script type="text/javascript" src="Sign Up.js"></script>
+	<center>
+	<form name="form" id="form_id" method="POST"><br>
+	<table>
+	<tr>
+		<td><label for="user">User name</label></td>
+		<td><input type="text" placeholder="User Name" name="users" onclick="seeuser()"></td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td id="useralert"></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email</label></td>
+		<td><input type="text" placeholder="Email" name="emails" onclick="seeemail()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="emailalert"></td>
+	</tr>
+	<tr>
+		<td><label for="password">Password</label></td>
+		<td><input type="password" placeholder="Password" name="passwords" onclick="seepass()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="passwordalert"></td>
+	</tr>
+	</table><br>
+	<input type="button" name="submit" value="Login" onclick="submitform()"><br><br>
+	</form>
+	</center>
+	</body>
+
+</html>
